@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lavender;
+    color: #3F3D56;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: lavender;
+    width: 100%;
+}
+
+.header__title {
+    color: rgb(80, 80, 80);
+}
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.main__inputs-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lavender;
+
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+    position: relative;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: lavender;
+    border-radius: 10px;
+
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    padding: 0 10px;
+}
+
+input {
+    height: 60px;
+    border: 1px solid #3F3D56;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 24px;
+    text-align: right;
+    padding: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid navy;
+    background-color: white;
+}
+
+#change-btn {
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to left ,rgb(0, 191, 255), rgb(35, 0, 212));
+    color: lavender;
+    cursor: pointer;
+}
+
+.output-table {
+    margin-top: 1rem;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #3F3D56;
+    color: lavender;
+    text-align: left;
+}
+
+th {
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.incorrect-input {
+    border: 2px solid orangered;
+}
+
+.error {
+    color: orangered;
+}
+
+.success {
+    color: rgb(41, 203, 0);
+}
+
+@media (min-width: 720px) {
+    .main {
+        flex-direction: row;
+        width: 100%;
+        position: relative;
+    }
+
+    form {
+        width: 40%;
+        height: 768vh;
+        overflow: scroll;
+        padding-top: 20px;
+        position: fixed;
+        scroll-behavior: smooth;
+    }
+
+   
+    .output-table {
+        margin-left: 50%;
+        width: 100%;
+    }
+}

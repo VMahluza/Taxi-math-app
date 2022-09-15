@@ -1,0 +1,23 @@
+{
+    "name": "NPWebs Calculator",
+    "short_name": "NP Calculator",
+    "description": "App to do taxi math",
+    "start_url": ".",
+    "background_color": "#e6e6fa",
+    "theme_color": "#3F3D56",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "images/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
