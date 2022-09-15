@@ -2,7 +2,7 @@
     "name": "NPWebs Calculator",
     "short_name": "NP Calculator",
     "description": "App to do taxi math",
-    "start_url": "https://pnkosi.github.io/Taxi-math-app/",
+    "start_url": "./Taxi-math-app/",
     "background_color": "#e6e6fa",
     "theme_color": "#3F3D56",
     "display": "standalone",
